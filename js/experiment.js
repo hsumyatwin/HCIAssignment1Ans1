@@ -95,8 +95,9 @@ function nextTrial() {
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
 		//alert(taskType);
 		if(taskType=='S') {
-			//alert('equal');
-		  document.getElementById("taskType").innerHTML = taskType;	
+		 //alert('equal');
+		  document.getElementById("taskType").innerHTML = '<audio controls><source src="./data/voice.mp3" type="audio/mpeg"></audio>';
+		 //<audio controls><source src="./data/voice.mp3" type="audio/mpeg"></audio>
 		}else{
 		  document.getElementById("taskType").innerHTML = taskType;
 		}		
