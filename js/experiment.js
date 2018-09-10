@@ -1,5 +1,5 @@
 'use strict';
-
+//UPD20180910
 // Location of data files
 const trialsFile = "./data/experiments.csv"
 const menuL1File = "./data/menu_depth_1.csv"
