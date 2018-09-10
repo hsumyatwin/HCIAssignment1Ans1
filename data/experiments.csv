@@ -1,13 +1,13 @@
 Task Type,Menu Type,Menu Depth,Target Item
-With-Sound,Marking,1,Clothing
-Without-Sound,Marking,1,Clothing
-With-Sound,Marking,2,Hats
-Without-Sound,Marking,2,Hats
-With-Sound,Marking,3,Jeans
-Without-Sound,Marking,3,Jeans
-With-Sound,Radial,1,Clothing
-Without-Sound,Radial,1,Clothing
-With-Sound,Radial,2,Hats
-Without-Sound,Radial,2,Hats
-With-Sound,Radial,3,Jeans
-Without-Sound,Radial,3,Jeans
+With,Marking,1,Clothing
+Without,Marking,1,Clothing
+With,Marking,2,Hats
+Without,Marking,2,Hats
+With,Marking,3,Jeans
+Without,Marking,3,Jeans
+With,Radial,1,Clothing
+Without,Radial,1,Clothing
+With,Radial,2,Hats
+Without,Radial,2,Hats
+With,Radial,3,Jeans
+Without,Radial,3,Jeans
