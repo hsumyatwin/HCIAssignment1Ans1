@@ -33,7 +33,10 @@ class ExperimentTracker {
 	stopTimer() {
 		
 		this.endTime = Date.now();
-		this.trials.push([this.trial, this.attempt, this.taskType, this.menuType, this.menuDepth, this.targetItem, this.selectedItem, this.startTime, this.endTime])
+		alert(this.taskType);
+		var tmp="S";
+		if(this.taskType=='NoS'){tmp="NoS";}
+		this.trials.push([this.trial, this.attempt, tmp, this.menuType, this.menuDepth, this.targetItem, this.selectedItem, this.startTime, this.endTime])
 		this.resetTimers();
 		this.attempt++;
 
