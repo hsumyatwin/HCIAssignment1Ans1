@@ -96,7 +96,7 @@ function nextTrial() {
 		//alert(taskType);
 		if(taskType=='S') {
 		 //alert('equal');
-		  document.getElementById("taskType").innerHTML = '<audio controls autoplay style="width:50px;height:32px"><source src="./data/voice.mp3" type="audio/mpeg"></audio>';
+		  document.getElementById("taskType").innerHTML = '<audio controls autoplay style="width:150px;height:20px"><source src="./data/voice.mp3" type="audio/mpeg"></audio>';
 		 //<audio controls><source src="./data/voice.mp3" type="audio/mpeg"></audio>
 		}else{
 		  document.getElementById("taskType").innerHTML = taskType;
