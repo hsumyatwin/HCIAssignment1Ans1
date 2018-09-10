@@ -94,13 +94,13 @@ function nextTrial() {
 
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
 		//alert(taskType);
-		if(taskType=='S') {
+		//if(taskType=='S') {
 		 //alert('equal');
-		  document.getElementById("taskType").innerHTML = '<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+		 // document.getElementById("taskType").innerHTML = '<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>';
 		 //<audio controls><source src="./data/voice.mp3" type="audio/mpeg"></audio>
-		}else{
+		//}else{
 		  document.getElementById("taskType").innerHTML = taskType;
-		}		
+		//}		
 		document.getElementById("menuType").innerHTML = menuType;
 		document.getElementById("menuDepth").innerHTML = menuDepth;
 		document.getElementById("targetItem").innerHTML = targetItem;
