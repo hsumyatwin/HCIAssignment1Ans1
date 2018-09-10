@@ -43,6 +43,7 @@ function initExperiment() {
 
 	var records = data.split("\n");
 	numTrials = records.length - 1;
+	alert(numTrials);
 	for (var i = 1; i <= numTrials; i++) {
 		var cells = records[i].split(",");
 		var taskType = cells[0].trim();
