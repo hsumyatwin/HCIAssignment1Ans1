@@ -93,6 +93,8 @@ function nextTrial() {
 		var targetItem = trialsData[currentTrial]['Target Item'];
 
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
+		alert(taskType);
+		if(taskType=='S') alert('equal');
 		document.getElementById("taskType").innerHTML = taskType;
 		document.getElementById("menuType").innerHTML = menuType;
 		document.getElementById("menuDepth").innerHTML = menuDepth;
