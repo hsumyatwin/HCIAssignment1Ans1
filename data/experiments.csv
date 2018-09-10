@@ -1,13 +1,7 @@
-Task Type,Menu Type,Menu Depth,Target Item
-WS,Marking,1,Clothing
-WIS,Marking,1,Clothing
-WS,Marking,2,Hats
-WIS,Marking,2,Hats
-WS,Marking,3,Jeans
-WIS,Marking,3,Jeans
-WS,Radial,1,Clothing
-WIS,Radial,1,Clothing
-WS,Radial,2,Hats
-WIS,Radial,2,Hats
-WS,Radial,3,Jeans
-WIS,Radial,3,Jeans
+Menu Type,Menu Depth,Target Item
+Marking,1,Clothing
+Marking,2,Hats
+Marking,3,Jeans
+Radial,1,Clothing
+Radial,2,Hats
+Radial,3,Jeans

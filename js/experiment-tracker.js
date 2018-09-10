@@ -1,12 +1,12 @@
 // Class used to track experiment
 class ExperimentTracker {
 
+
 	constructor() {
 		this.trials = [];
 		this.attempt = 0;
 		this.trial = null;
 		this.attempt = null;
-		this.taskType = null;
 		this.menuType = null;
 		this.menuDepth = null;
 		this.targetItem = null;
@@ -32,7 +32,7 @@ class ExperimentTracker {
 	stopTimer() {
 		
 		this.endTime = Date.now();
-		this.trials.push([this.trial, this.attempt, this.taskType,this.menuType, this.menuDepth, this.targetItem, this.selectedItem, this.startTime, this.endTime])
+		this.trials.push([this.trial, this.attempt, this.menuType, this.menuDepth, this.targetItem, this.selectedItem, this.startTime, this.endTime])
 		this.resetTimers();
 		this.attempt++;
 
@@ -43,7 +43,7 @@ class ExperimentTracker {
 	}
 
 	toCsv() {
-		var csvFile = "Trial,Attempt,Task Type, Menu Type,Menu Depth,Target Item,Selected Item,Start Time, End Time\n";
+		var csvFile = "Trial,Attempt,Menu Type,Menu Depth,Target Item,Selected Item,Start Time, End Time\n";
 		for (var i = 0; i < this.trials.length; i++) {
 			csvFile += this.trials[i].join(',');
 			csvFile += "\n";
