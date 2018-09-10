@@ -1,5 +1,5 @@
 Id,Parent,Label
-1,1,Animals
-2,1,Food
-3,1,Clothing
-4,1,Continents
+1,0,Animals
+2,0,Food
+3,0,Clothing
+4,0,Continents
