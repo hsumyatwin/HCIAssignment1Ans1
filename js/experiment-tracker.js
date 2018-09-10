@@ -1,7 +1,6 @@
 // Class used to track experiment
 class ExperimentTracker {
 
-
 	constructor() {
 		this.trials = [];
 		this.attempt = 0;
@@ -44,7 +43,7 @@ class ExperimentTracker {
 	}
 
 	toCsv() {
-		var csvFile = "Trial,Attempt,Menu Type,Menu Depth,Target Item,Selected Item,Start Time, End Time\n";
+		var csvFile = "Trial,Attempt,Task Type, Menu Type,Menu Depth,Target Item,Selected Item,Start Time, End Time\n";
 		for (var i = 0; i < this.trials.length; i++) {
 			csvFile += this.trials[i].join(',');
 			csvFile += "\n";
