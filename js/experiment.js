@@ -45,10 +45,12 @@ function initExperiment() {
 	numTrials = records.length - 1;
 	for (var i = 1; i <= numTrials; i++) {
 		var cells = records[i].split(",");
-		var menuType = cells[0].trim();
-		var menuDepth = cells[1].trim();
-		var targetItem = cells[2].trim();
+		var taskType = cells[0].trim();
+		var menuType = cells[1].trim();
+		var menuDepth = cells[2].trim();
+		var targetItem = cells[3].trim();
 		trialsData[i] = {
+			'Task Type': taskType,
 			'Menu Type': menuType,
 			'Menu Depth': menuDepth,
 			'Target Item': targetItem
@@ -84,12 +86,13 @@ function nextTrial() {
 
 	
 	if (currentTrial <= numTrials) {
-
+		var taskType = trialsData[currentTrial]['Task Type'];
 		var menuType = trialsData[currentTrial]['Menu Type'];
 		var menuDepth = trialsData[currentTrial]['Menu Depth'];
 		var targetItem = trialsData[currentTrial]['Target Item'];
 
 		document.getElementById("trialNumber").innerHTML = String(currentTrial) + "/" + String(numTrials);
+		document.getElementById("taskType").innerHTML = taskType;
 		document.getElementById("menuType").innerHTML = menuType;
 		document.getElementById("menuDepth").innerHTML = menuDepth;
 		document.getElementById("targetItem").innerHTML = targetItem;
@@ -98,6 +101,7 @@ function nextTrial() {
 
 		tracker.newTrial();
 		tracker.trial = currentTrial;
+		tracker.taskType = taskType;
 		tracker.menuType = menuType;
 		tracker.menuDepth = menuDepth;
 		tracker.targetItem = targetItem;
