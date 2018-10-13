@@ -1,13 +1,13 @@
 Task Type,Menu Type,Menu Depth,Target Item
-'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,1,Clothing
-NoS,Marking,1,Clothing
-'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice3.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,2,Hats
-NoS,Marking,2,Hats
-'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice5.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,3,Jeans
-NoS,Marking,3,Jeans
 '<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice7.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Radial,1,Clothing
 NoS,Radial,1,Clothing
 '<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice9.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Radial,2,Hats
 NoS,Radial,2,Hats
 '<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice11.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Radial,3,Jeans
 NoS,Radial,3,Jeans
+'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,1,Clothing
+NoS,Marking,1,Clothing
+'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice3.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,2,Hats
+NoS,Marking,2,Hats
+'<audio controls autoplay style="width:150px;height:15px"><source src="./data/voice5.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>',Marking,3,Jeans
+NoS,Marking,3,Jeans
